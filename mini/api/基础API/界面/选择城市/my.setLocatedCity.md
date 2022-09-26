@@ -283,6 +283,7 @@ fail 回调函数会携带一个 Object 类型的对象，其属性如下：
 
 | **错误码** | **描述** | **解决方案** |
 | --- | --- | --- |
+| 4 | 无权限调用 | 确认当前是否是企业支付宝小程序，只有企业小程序才有权限调用 |
 | 11 | 参数类型错误。 | 检查参数类型是否正确。 |
 | 12 | 必填参数为空。 | 请确认参数 locatedCityId、locatedCityName 是否已填写。 |
 | 13 | locatedCityId 不匹配。 | 请确保与 **my.chooseCity** 的 onLocatedComplete 的 locatedCityId 保持一致。 |
